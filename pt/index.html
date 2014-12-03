@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Raaga - Responsive Parallax Template for Bands</title>
+<title>D&#39;Brothers Escola de M&uacute;sica</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
 <link href="css/bootstrap.css" rel="stylesheet">
@@ -30,29 +30,73 @@
 <script type="text/javascript" src="js/jquery.fancybox63b9.js?v=2.1.4"></script>
 <link rel="stylesheet" type="text/css" href="css/jquery.fancybox63b9.css?v=2.1.4" media="screen"/>
 <script type="text/javascript">
-		$(document).ready(function() {
-			$('.fancybox').fancybox({
-    helpers : {
-        overlay : {
-            locked : false,
-        }
-    }
-});
-});
+    $(document).ready(function() {
+        $( "#prof1" ).hide();
+        $( "#prof2" ).hide();
+        $( "#prof3" ).hide();
+        $( "#prof4" ).hide();
+        $( "#prof5" ).hide();
+        $( "#prof6" ).hide();
+        $( "#prof7" ).hide();
+        $( "#prof8" ).hide();
+        $( "#prof9" ).hide();
+        $( "#prof10" ).hide();
+        $( "#prof11" ).hide();
+        $( "#prof12" ).hide();
+        $( "#prof13" ).hide();
+        $( "#prof14" ).hide();
+        $( "#prof15" ).hide();
+
+        $('.fancybox').fancybox({
+            'afterClose': function() {
+                
+            },
+            'afterLoad': function() {
+                
+            },
+            helpers : {
+                overlay : {
+                    locked : false,
+                }
+            }
+        });
+    });
 </script>
  
  
 <script src="js/stellar.js"></script>
 <script>
-		$(function(){
-			$.stellar({
-				horizontalScrolling: false,
-				verticalOffset: 40
-			});
-		});
-		</script>
+        $(function(){
+            $.stellar({
+                horizontalScrolling: false,
+                verticalOffset: 40
+            });
+        });
+        </script>
  
 <script src="js/contact_form.js"></script>
+<style type="text/css">
+    #column1-wrap {
+        float: left;
+        width: 100%;
+    }
+    #column1 {
+        margin-right: 200px;
+    }
+    #column2 {
+        float: left;
+        width: 200px;
+        margin-left: -400px;
+    }
+    #column3 {
+        float: left;
+        width: 200px;
+        margin-left: -200px;
+    }
+    #clear {
+        clear: both;
+    }
+</style>
 </head>
 <body>
 <a id="home"></a>
@@ -65,25 +109,18 @@
  
 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
  
-<a class="brand" href="#"> <img src="images/logo-small.png" alt="logo"></a>
+<a class="brand active" href="../en/index.html" style="text-shadow: none;font-size: 14px;text-transform: uppercase;"> English</a> 
+<a class="brand" href="../pt/index.html" style="text-shadow: none;font-size: 14px;text-transform: uppercase;"> Portugu&ecirc;s</a> 
  
 <div class="nav-collapse collapse">
  
 <ul class="nav pull-right">
 <li class="active"><a href="#home">HOME</a></li>
-<li><a href="#events">EVENTS</a></li>
-<li><a href="#about">ABOUT</a></li>
-<li><a href="#gallery">GALLERY</a></li>
-<li><a href="#media">MEDIA</a></li>
-<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
-<ul class="dropdown-menu">
-<li><a href="blog.html" target="_blank">BLOG LIST</a></li>
-<li><a href="blog-post.html" target="_blank">SINGLE BLOG PAGE</a></li>
-<li><a href="404.html" target="_blank">404 PAGE</a></li>
-<li><a href="soon.html" target="_blank">COMING SOON</a></li>
-</ul>
-</li>
-<li><a href="#contact">CONTACT</a></li>
+<li><a href="#about">QUEM SOMOS</a></li>
+<li><a href="#benefits">BENEF&Iacute;CIOS</a></li>
+<li><a href="#teachers">PROFESSORES</a></li>
+<li><a href="#contact">CONTATO</a></li>
+<li><a href="#jobs">TRABALHE CONOSCO</a></li>
 </ul>
 </div>
 </div>
@@ -95,120 +132,372 @@
 <ul class="slides">
 <li>
 <div class="hero-unit">
-<p class="text-center"><img src="images/logo-big.png" alt="band logo"></p>
-<h1>THE SOUL OF MUSIC</h1>
-<h3 class="subtitle fancy hidden-phone"><span>OFFICIAL BAND WEBSITE</span></h3>
-</div>
-</li>
-<li>
-<div class="slide2">
-<p>
-<iframe width="640" height="360" src="https://www.youtube.com/embed/nlNuHjp2fB8" allowfullscreen></iframe>
-</p>
-<h3>YOUTUBE VIDEO WITH CAPTION</h3>
-</div>
-</li>
-<li>
-<div class="slide3">
-<p class="text-center"> <img src="images/slider_img.jpg" alt="Slider Image"> </p>
-<h1>LONDON MUSIC NIGHT</h1>
-<h3>ONLY LIMITED SEATS AVAILABLE. HURRY UP!!</h3>
-<p class="hidden-phone"> <a href="#" class="btn btn-danger btn-large">BOOK TICKETS</a> </p>
+<h1>D&#39;BROTHERS</h1>
+<h3 class="subtitle fancy hidden-phone"><span>ESCOLA DE MUSICA</span></h3>
 </div>
 </li>
 </ul>
 </div>
-<p class="text-center hidden-phone"> <a href="#events"><img src="images/arrow-bottom.png" alt="sroll to arrow"></a></p>
+<p class="text-center hidden-phone"> <a href="#about"><img src="images/arrow-bottom.png" alt="sroll to arrow"></a></p>
 </div>
 </div>
  
-<div class="container"> <a id="events"></a>
+<div class="container"> <a id="about"></a>
 <div class="row-fluid PageHead">
 <div class="span12">
-<h3>UPCOMING EVENTS<span> <img src="images/underline.png" alt="______"></span></h3>
+<h3>QUEM SOMOS<span> <img src="images/underline.png" alt="______"></span></h3>
 </div>
 </div>
 <div class="row-fluid EventsList">
 <div class="span4">
 <div class="thumbnail">
 <div class="caption">
-<h3>LONDON MUSIC NIGHT</h3>
-<p>Sep 17, 06:00 PM</p>
-<p class="text-center"><a href="#" class="btn btn-med">TICKETS</a> </p>
+<h3>UM POCO DA HIST&Oacute;RIA</h3>
+<p>D&#39;Brothers foi formada a principio como uma banda pelos irm&atilde;os: 
+Ana Karina, Ricardo Junior, Michel Mix e Ulysses Batera, onde o foco principal eram as festas e festivais de rock por S&atilde;o Paulo.
+</p>
 </div>
 </div>
 </div>
 <div class="span4">
 <div class="thumbnail">
 <div class="caption">
-<h3>RAAGA MUSIC FESTIVAL</h3>
-<p>OCT 22, 08:30 PM</p>
-<p class="text-center"><a href="#" class="btn btn-med">TICKETS</a> </p>
+<h3>O INICIO</h3>
+<p>Com o passar do tempo, a procura pelos servi&ccedil;os da banda foi aumentando, sendo ent&atilde;o necess&aacute;rio formalizar como uma empresa especializada em eventos, festas, coquiteis e cerimoniais.</p>
 </div>
 </div>
 </div>
 <div class="span4">
 <div class="thumbnail">
 <div class="caption">
-<h3>INDIAN MEGA FOLK WEEK</h3>
-<p>NOV 05, 10:00 PM</p>
-<p class="text-center"><a href="#" class="btn btn-med">TICKETS</a> </p>
+<h3>A ESCOLA</h3>
+<p>A  escola de m&uacute;sica D&#39;brothers &eacute; mais um ramo da empresa Dbrothers, coordenado pelo Sr. Ricardo J&uacute;nior, diretor do setor e coordenador respons&aacute;vel pelo recrutamento dos professores por toda cidade de S&atilde;o Paulo.</p>
 </div>
 </div>
 </div>
 </div>
-<p class="sectionfooter text-center"> <a class="showmore btn-link"><img src="images/show_icon.png" alt="icon"> SHOW ALL EVENTS (06)</a> </p>
 </div>
  
-<div class="about" id="about" data-stellar-background-ratio="0.5">
+<div class="about" id="benefits" data-stellar-background-ratio="0.5">
 <div class="container">
 <div class="row-fluid PageHead inverse">
 <div class="span12">
-<h3>ABOUT THE BAND<span> <img src="images/underline.png" alt="______"></span></h3>
+<h3>BENEF&Iacute;CIOS PARA CRIAN&Ccedil;AS<span> <img src="images/underline.png" alt="______"></span></h3>
 </div>
 </div>
-<p class="lead text-center">It was during Lewis's jingles career that the idea of Raaga was conceived. Lewis had called in John to sing a jingle for him one evening in 1992. The lyrics for the jingle were late coming in. <br>
-<br>
-The restless Lewis began crooning something while strumming on his guitar, John felt inspired to jam with an alaap, and the result: the seamless fusion of Eastern and Western sounds that has become the quintessential characteristic of the Raaga.</p>
+<p class="lead text-center">
+- Para as crian&ccedil;as, ajuda no desenvolvimento da coordena&ccedil;&atilde;o motora, da mem&oacute;ria, da concentra&ccedil;&atilde;o, do aprendizado e das rela&ccedil;&otilde;es interpessoais, refletindo num melhor desempenho escolar.
+</p>
 <div class="row-fluid PageHead inverse">
 <div class="span12">
-<h3>THE ROCKING TEAM<span> <img src="images/underline.png" alt="______"></span></h3>
+<h3>BENEF&Iacute;CIOS PARA ADULTOS<span> <img src="images/underline.png" alt="______"></span></h3>
 </div>
 </div>
-<div class="row-fluid theteam">
-<div class="span2"><img src="images/team_img1.jpg" alt="team"></div>
-<div class="span2"><img src="images/team_img2.jpg" alt="team"></div>
-<div class="span2"><img src="images/team_img3.jpg" alt="team"></div>
-<div class="span2"><img src="images/team_img4.jpg" alt="team"></div>
-<div class="span2"><img src="images/team_img5.jpg" alt="team"></div>
-<div class="span2"><img src="images/team_img6.jpg" alt="team"></div>
+<p class="lead text-center">
+- Para os adultos, a m&uacute;sica reduz o estresse, propiciando momentos de relaxamento e conseq&uuml;ente melhora da sa&uacute;de f&iacute;sica e mental, al&eacute;m de trazer momentos &uacute;nicos em companhia dos amigos e familiares.
+</p>
+<div class="row-fluid PageHead inverse">
+<div class="span12">
+<h3>M&Uacute;SICA NA MELHOR IDADE <span> <img src="images/underline.png" alt="______"></span></h3>
 </div>
 </div>
+<p class="lead text-center">
+- E para quem acha que j&aacute; passou da idade para aprender m&uacute;sica, est&aacute; muito enganado. Afinal, n&atilde;o &eacute; &agrave; toa que a terceira idade &eacute; conhecida como a melhor idade. Essa &eacute; a hora de exercitar a sua mente e, para isso, nada melhor do que aprender novas habilidades.
+</p>
 </div>
- 
-<div class="container"> <a id="gallery"></a>
+</div>
+
+
+<!--
+<div class="about" id="teachers" data-stellar-background-ratio="0.5">
+<div class="container">
+<div class="row-fluid PageHead inverse">
+<div class="span12">
+<h3>NOSSOS PROFESSORES<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">Voc&ecirc; j&aacute; teve vontade ou pensou em aprender a tocar algum instrumento musical? A m&uacute;sica pode te ajudar a ter um ano com mais alegria, paz, sa&uacute;de e momentos especiais. <br>
+<br>
+Ricardo <br>  
+Diretor e professor da empresa: Escola de Musica  D&#39;Brothers <br>
+&quot;A m&uacute;sica expressa o que n&atilde;o pode ser dito em palavras, mas n&atilde;o pode permanecer em sil&ecirc;ncio.&quot; (Victor Hugo) <br><br>
+Nossos profissionais se especializaram em oferecer aulas em domicilio, proporcionando um &oacute;timo atendimento, com profissionais qualificados e confi&aacute;veis para que voc&ecirc; desfrute da prazerosa pratica de estudar m&uacute;sica, sem sair do conforto de sua resid&ecirc;ncia.</p>
+</div>
+</div>
+-->
+
+
+<div class="container"> <a id="teachers"></a>
 <div class="row-fluid PageHead">
 <div class="span12">
-<h3>IMAGE GALLERY<span> <img src="images/underline.png" alt="______"></span></h3>
+<h3>NOSSOS PROFESSORES<span> <img src="images/underline.png" alt="______"></span></h3>
 </div>
 </div>
 <div class="row-fluid Gallery">
 <div class="span12">
 <ul>
-<li><a class="fancybox" href="images/gallery/photos/big1.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb1.jpg" alt=""/></a></li>
-<li><a class="fancybox" href="images/gallery/photos/big2.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb2.jpg" alt=""/></a></li>
-<li><a class="fancybox" href="images/gallery/photos/big3.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb3.jpg" alt=""/></a></li>
-<li><a class="fancybox" href="images/gallery/photos/big4.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb4.jpg" alt=""/></a></li>
-<li><a class="fancybox" href="images/gallery/photos/big5.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb5.jpg" alt=""/></a></li>
-<li><a class="fancybox" href="images/gallery/photos/big6.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb6.jpg" alt=""/></a></li>
-<li><a class="fancybox" href="images/gallery/photos/big7.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb7.jpg" alt=""/></a></li>
-<li><a class="fancybox" href="images/gallery/photos/big8.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb8.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof1" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_1.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof2" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_2.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof3" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_3.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof4" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_4.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof5" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_5.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof6" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_6.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof7" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_7.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof8" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_8.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof9" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_9.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof10" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_10.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof11" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_11.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof12" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_12.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof13" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_13.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof14" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_14.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof15" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_15.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof16" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_16.jpg" alt=""/></a></li>
 </ul>
 <p class="sectionfooter text-center">&nbsp; </p>
 </div>
 </div>
 </div>
- 
+
+
+<div class="container" id="prof1">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>RICARDO JUNIOR<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Professor, arranjador, compositor e m&uacute;sico multi-instrumentista, diretor da escola de m&uacute;sica, respons&aacute;vel pelo departamento de aulas da empresa D&#39;brohers. Ministra aulas desde 2004, onde fez parte de corpo docente de escolas e conservat&oacute;rios  da cidade de S&atilde;o Paulo.<br><br>
+
+Graduado em m&uacute;sica e p&oacute;s-graduado em doc&ecirc;ncia no ensino superior, possui trabalhos feitos relacionados a m&uacute;sica e aprendizagem, visando sempre mostrar qual a import&acirc;ncia da musica no processo de aprendizagem, raciocinio, mem&oacute;ria, entre outros, nos aspectos pedag&oacute;gicos e andrag&oacute;gicos.<br><br>
+
+Guitarrista Integrante da banda D&#39;brothers , formada junto a seus irm&atilde;os, onde atua no setor de eventos, festas e cerimoniais por toda S&atilde;o Paulo.
+</p>
+</div>
+
+<div class="container" id="prof2">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Alessandro Granato<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Professor, compositor e m&uacute;sico multi-instrumentista. Iniciou seus estudos musicais no Viol&atilde;o aos 14 anos em S&atilde;o Jos&eacute; dos Campos, interior de S&atilde;o Paulo com o professor Marcelo Lira (Educador musical da EMAK, S&atilde;o Jos&eacute; dos Campos, SP). <br><br>
+O interesse pela m&uacute;sica e aprendizado de outros instrumentos o levou aos 19 anos a estudar Piano Popular e Teclados na Escola de M&uacute;sica Melodia com o professor Carlos Magno em S&atilde;o Jos&eacute; dos Campos. <br><br>
+Entre 2004 e 2010 passou por diversas forma&ccedil;&otilde;es de bandas de estilos variados (Forr&oacute;, Reggae, Rock, Pop Rock, Beatles Cover) tocando viol&atilde;o, guitarra ou teclados em grava&ccedil;&otilde;es de est&uacute;dio, shows com bandas regionais e em casamentos. De 2010 at&eacute; a atualidade passou a se dedicar ao ensino do viol&atilde;o e guitarra ministrando aulas particulares em sua resid&ecirc;ncia e a domic&iacute;lio.
+</p>
+</div>
+
+<div class="container" id="prof3">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Andressa Parra<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Cantora, Iniciou seus estudos musicais aos 14 anos em Itapecerica da Serra, no projeto Orquestra Jovem tocando flauta transversal, al&eacute;m do Projeto de Canto Coral, na mesma cidade. Formou-se no curso t&eacute;cnico do Conservat&oacute;rio Musical Beethoven em Canto Popular, onde tamb&eacute;m fez aulas de canto l&iacute;rico e Piano Popular.<br><br>
+Bacharel em canto popular pela Faculdade Alc&acirc;ntara Machado (FAAM), cursa atualmente a escola de teatro musical 4 act e faz aulas de t&eacute;cnicas vocais com a cantora l&iacute;rica C&eacute;line Imbert. Ministra aulas de Canto e Musicaliza&ccedil;&atilde;o nas escolas Villa Musical e Music Center e aulas particulares de canto, flauta doce e teoria.<br><br>
+Como cantora,  apresenta-se em cerim&ocirc;nias e festas de casamentos com o Coral L&uacute;men e Cerimonial D&#39;Brothers, j&aacute; participou de Jingles publicit&aacute;rios, apresenta-se em bares paulistanos e eventos em geral. Recentemente atuou como Coralista da &Oacute;pera Colombo no Teatro S&atilde;o Pedro, juntamente com a Orquestra do Teatro S&atilde;o Pedro. 
+</p>
+</div>
+
+<div class="container" id="prof4">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Bruno Godinho<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Bruno Godinho iniciou seus estudos aos onze anos com o professor de viol&atilde;o Max Ver. Passou a se dedicar mais a&grave; m&uacute;sica quando entrou para o Conservat&oacute;rio Souza Lima, onde teve aulas de harmonia, leitura, piano, improvisa&ccedil;&atilde;o e percep&ccedil;&atilde;o com diversos professores, tais como Pollaco, Rafael Bittencourt, Kiko Loureiro, Miguel Laprano, Ana Maria Vieira entre muitos outros. Assim que concluiu o 2o grau, ingressou na Faculdade de Música Alc&acirc;ntara Machado (FAAM/FMU). Neste ambiente acad&ecirc;mico, estudou harmonia, contraponto, hist&oacute;ria da m&uacute;sica, pr&aacute;tica em conjunto, an&aacute;lise, etc, com in&uacute;meros m&uacute;sicos de renome, como Marisa Ramirez, Sidney Moglina, Paulo Tin&eacute; entre outros. No mesmo per&iacute;odo, teve aulas com os professores Valmyr Tavares e Conrado Paulino. <br><br>
+Trabalhou entre 2001 e 2005 na revista Guitar Class (Editora Talism&atilde;). Durante todo este per&iacute;odo, transcreveu in&uacute;meras m&uacute;sicas dos mais variados g&ecirc;neros musicais. Heraldo do Monte, Ricardo Silveira, Greg Howe, Eddie Van Halen, Jonh Petrucci, etc, s&atilde;o alguns exemplos dos guitarristas que j&aacute; foram transcritos por Bruno Godinho. Tamb&eacute;m foram realizadas mat&eacute;rias de cunho jornal&iacute;stico com os guitarristas Michel Leme, Kiko Loureiro, Edu Ardanuy, etc. Neste meio, v&ecirc;m atuando tamb&eacute;m como transcritor free-lance, sendo contratado para transcrever m&uacute;sicas avulsas, m&eacute;todos, books, etc.
+</p>
+</div>
+
+
+<div class="container" id="prof5">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Mia Kay<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+A guitarrista Mia Kay começou a tocar nos palcos de S&atilde;o Paulo aos 16 anos. Ap&oacute;s passar por diversas bandas de m&uacute;sica cover, ela foi recrutada pelo para participar do aclamado grupo de DJs Female Angels, tendo a oportunidade de viajar o Brasil e tocar para 50 mil pessoas em Balne&aacute;rio Cambori&uacute;. <br><br>
+
+Mia come&ccedil;ou a estudar viol&atilde;o cl&aacute;ssico aos 11 anos de idade e logo se apaixonou pela guitarra. Estudou com a professora M&ocirc;nica Agena e os professores Rodrigo Vanni e Marcelo Munari. Desde ent&atilde;o, ela se formou em Comunica&ccedil;&atilde;o e viajou para Los Angeles para estudar Music Business no Musicians Institute, onde se formou em Junho de 2012. <br><br>
+
+Em 2013, ela segue em frente com o projeto de m&uacute;sica eletr&ocirc;nica Animale - do qual tamb&eacute;m participam a DJ Lara Luz e a cantora Natalie Bergamo - sua banda feminina HEY, LADIES! e o Duo Single Ladies, um ac&uacute;stico em parceria com a cantora &Eacute;rica Pinna.
+</p>
+</div>
+
+<div class="container" id="prof6">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Wolfgang Nassif<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Iniciou seus estudos de piano aos 10 anos de idade, passando pelos conservat&oacute;rios e escolas citadas acima, aos 18 anos iniciou seus estudos de clarinete. Ap&oacute;s isso, tocou em bandas e  conjuntos com diversas forma&ccedil;&otilde;es, como integrante e free lancer. Tamb&eacute;m deu e d&aacute; aulas particulares residenciais e em escolas.
+Leciona como professor de piano por h&aacute; dois anos no IMB - Instituto Musical Bonfiglioli. Leitura de partitura (clave de Sol e clave de F&aacute; na quarta linha). Teoria musical em geral; r&iacute;tmica, tr&iacute;ades, invers&otilde;es de acordes, fun&ccedil;&otilde;es harm&ocirc;nicas, escalas maiores, menores e modais, etc... <br><br>
+
+Experi&ecirc;ncia em diversas  forma&ccedil;&otilde;es e grupos musicais como : Trios, quartetos, quintetos, conjuntos, big bands e free lancer. Ritmos brasileiros, Funk, Jazz, Blues, Bolero, Mambo, Rumba, cha-cha-cha.<br><br>
+
+Escola Municipal de Primeiro e Segundo Grau Daniel Pontes. Conservatório Musical Butant&atilde;, Conservat&oacute;rio Musical Santa Clara, Consevatório Beethoven e EMM - Escola Municipa de M&uacute;sica.
+</p>
+</div>
+
+<div class="container" id="prof7">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Michel Mix<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Nascido em S&atilde;o Paulo dia 21 de dezembro de 1987, come&ccedil;ou a estudar m&uacute;sica aos 15 anos fazendo aulas de piano com a professora Metyca. Aos 18 ingressou &agrave; Faculdade de Artes Alc&acirc;ntara Machado (FAAM) onde come&ccedil;ou a estudar canto popular com a professora Tuca Fernandes. Prosseguiu estudando canto tamb&eacute;m na antiga ULM (Universidade Livre de M&uacute;sica) com as professoras Patr&iacute;cia Escobar, Andr&eacute;ia dos Guimar&atilde;es e Maria Cec&iacute;lia Barad&eacute;u, com quem atualmente estuda t&eacute;cnica vocal de canto erudito. <br><br>
+
+Participou de projetos envolvendo coro, um deles no teatro Tuca, um evento natalino promovido pelo teatro e cantado pelo coro da FAAM, participou tamb&eacute;m do Filafro Diversity Choir em 2010 no SESC pomp&eacute;ia e foi protagonista na opereta do Noel Rosa (A noiva do Condutor). Outras participa&ccedil;&otilde;es em eventos culturais como apresenta&ccedil;&otilde;es em C&Eacute;US e casas de cultura al&eacute;m de grava&ccedil;&otilde;es de Jingles para filmes tendo como &uacute;ltimo trabalho em 2011, a dublagem da parte cantada do filme As Viagens de Gulliver interpretando o ator Jack Black. <br><br>
+
+Atualmente est&aacute; formado em canto popular e ministra aulas de canto particulares. Al&eacute;m das aulas e eventos &eacute; vocalista da banda D&#39;Brothers que se apresenta em festas de baile , anivers&aacute;rios em geral ,casamentos e &eacute; vocalista (Backing Vocal) contratado pela banda Link&#39;ed, que &eacute; a mais nova aposta da Universal Music.
+</p>
+</div>
+
+<div class="container" id="prof8">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Juliana Bergamini<span><img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Nascida no bairro do Jaguar&aacute;, em S&atilde;o Paulo, Juliana sempre teve um contato muito forte com a m&uacute;sica. Desde sua inf&acirc;ncia Juliana foi musicalizada ouvindo grandes refer&ecirc;ncias da m&uacute;sica popular nacional e internacional.<br><br>
+
+Aos 11 anos come&ccedil;ou seu interesse em tocar bateria quando se envolveu com o grupo musical de uma igreja. Sua família n&atilde;o tinha muito recurso financeiro, por isso, como autodidata, foi se aperfei&ccedil;oando no Pop nacional e, aos 16 anos, dava aulas de bateria como volunt&aacute;ria na igreja que participava. O interesse por estudar m&uacute;sica aumentou quando, aos 19 anos, foi convidada a dar aulas de percuss&atilde;o em um col&eacute;gio de ensino p&uacute;blico. Em 2006, concluiu um curso de Musicaliza&ccedil;&atilde;o Infantil com M&aacute;rcia Visconti, professora de Inicia&ccedil;&atilde;o Musical para beb&ecirc;s e gestantes e de musicaliza&ccedil;&atilde;o infantil para crian&ccedil;as maiores no Forte das Artes, ex-diretora da antiga escola de m&uacute;sica Tom Jobim e coordenadora de Educa&ccedil;&atilde;o Musical nos CEUs pela Associa&ccedil;&atilde;o Vitta.<br>
+
+Desde ent&atilde;o, Juliana come&ccedil;ou a fazer aulas particulares de canto popular com Milena Tarasiuk, atualmente solista do Teatro Municipal de S&atilde;o Paulo. Foi em 2006 tamb&eacute;m que Juliana come&ccedil;ou a participar de um coral voltado a Black Music. Em 2007, passou a dar aulas de Musicaliza&ccedil;&atilde;o Infantil e Canto na escola que j&aacute; dava aulas de Percuss&atilde;o.
+Atualmente trabalha nos CEUs Jaguar&eacute; (onde trabalhou como volunt&aacute;ria no final de 2011) e Parque Anhanguera dando aulas de Canto e Musicaliza&ccedil;&atilde;o Infantil pela ONG ADEP e faz o curso de Agente de Desenvolvimento Local no SENAC 9 de Julho.
+</p>
+</div>
+
+<div class="container" id="prof9">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Anna Iris<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Iniciou os estudos oficialmente em 2004 e em 2008 sob reg&ecirc;ncia de Gian Marco Aquino foi spalla da orquestra Guri p&oacute;lo Morumbi. Tocou na Orquestra de C&acirc;mara do Col&eacute;gio Visconde de Porto Seguro, reg&ecirc;ncia de Gretchen Miller, na Orquestra de M&uacute;sica Brasileira da EMESP, reg&ecirc;ncia de Siz&atilde;o Machado e Orquestra Juvenil da EMESP, reg&ecirc;ncia de Enio Antunes, Orquestra Sinf&ocirc;nica Jovem de Po&atilde; (maestro Sergio Fontana). Participou tamb&eacute;m do festival Internacional de M&uacute;sica em Santa Catarina (FEMUSC). <br><br>
+Atualmente estuda com o Violinista Ney Aguiar, leciona aulas de violino, iniciou curso de improvisa&ccedil;&atilde;o livre contempor&acirc;nea na EMESP com o professor Dimos Goudaroulis, toca na Orquestra Jovem de Mogi das Cruzes, Orquestra Filarm&ocirc;nica de Santo Amaro (maestrina Silvia Luizada) e Camerata ADEC (maestro Ivan Bueno).
+</p>
+</div>
+
+
+<div class="container" id="prof10">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Kalixto Pereira<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Iniciou seus estudos de m&uacute;sica com seu pai que &eacute; compositor e cantor. Estudou piano e canto no Conservat&oacute;rio Estadual de M&uacute;sica Cora Pavan Caparelli em Minas Gerais onde tamb&eacute;m foi regente do coro infanto juvenil e professor de piano e canto individual. Estudou piano com Cris Machado e Aracelli Chacon e canto com Edmar Ferretti, Mara Campos e Cora Caparelli. Foi regente assistente do coral da Universidade Federal de Uberl&acirc;ndia onde tamb&eacute;m cantou v&aacute;rias m&uacute;sicas de c&acirc;mara e &oacute;peras. J&aacute; cantou em banda show de repert&oacute;rio popular variado com diferentes timbres de voz. Cantou no teatro municipal do Rio de Janeiro e em outros estados como Cear&aacute;, Minas Gerais e S&atilde;o Paulo. <br><br>
+
+Ganhou primeiro lugar em concurso estadual de piano um ano ap&oacute;s ter iniciado seus estudos do instrumento. 
+Atualmente, cursa o &uacute;ltimo ano de licenciatura em m&uacute;sica na Faculdade Integral Cantareira e, como pedagogo, defende a import&acirc;ncia da metodologia adequada no ensino de m&uacute;sica. Nas suas aulas, elabora estrat&eacute;gias de ensino personalizadas para cada aluno. <br><br>
+
+Calixto desenvolve um trabalho de t&eacute;cnica vocal e dic&ccedil;&atilde;o com m&eacute;todo pr&oacute;prio destinado a quem deseja aprender a cantar ou falar em p&uacute;blico como jornalistas, apresentadores, radialistas, locutores e professores. Suas aulas incluem: exerc&iacute;cios de respira&ccedil;&atilde;o; articula&ccedil;&atilde;o dos sons e rapidez na pron&uacute;ncia; t&eacute;cnicas de volume; desbloqueio - timidez; controle da gagueira; afina&ccedil;&atilde;o; interpreta&ccedil;&atilde;o. Comp&otilde;e m&uacute;sicas eruditas, populares e faz arranjos. 
+</p>
+</div>
+
+
+<div class="container" id="prof11">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Rodrigo<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Professor de viol&atilde;o e teclado e percuss&atilde;o, leciona musica para adolescentes e adultos.
+</p>
+</div>
+
+
+<div class="container" id="prof12">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Gabriel Bispo<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Iniciou-se na m&uacute;sica desde cedo, tendo atuado no cen&aacute;rio curitibano a partir dos 15 anos de idade, seu primeiro contato com a m&uacute;sica na igreja tendo o trompete como seu instrumento de inicia&ccedil;&atilde;o passando um ano depois para o trombone, instrumento cedido pelo Col&eacute;gio no qual estudava, e posteriormente a Integrar a Banda Sinf&ocirc;nica do Col&eacute;gio, Banda em que ficou por cinco anos, passando a ser um dos auxiliares e chefe do naipe de trombone. <br><br>
+
+Nesse mesmo per&iacute;odo entrou para o Conservat&oacute;rio de MPB de Curitiba no curso Piano e pratica de orquestra, se tornando um dos monitores do curso. Em 2007 formou ao quarteto jazz de Cozinha executando obra da musica brasileira e jazz&iacute;stica onde ficou por um ano, 2008 passou a morar em S&atilde;o Paulo onde continuou seus estudos na ULM, no mesmo ano &eacute; convidado pelo amigo Maestro Paulo Tin&eacute; a integrar a Big Band da Santa. <br><br>
+
+J&aacute; trabalhou com diversos m&uacute;sicos e artistas entre eles: Jair Rodrigues, Claudia Oliveira, Simoninha, Luciana Mello, Jairzinho, Os Cariocas, Quinteto Branco e Preto, Daniel, Marina Elali, Maestro Roberto Sion, Paulo Braga, Sis&atilde;o Machado, Nelson Ayres, Rosa Passos, Monica Salmaso, La&eacute;rcio de Freitas, Gilson Peranzetta, Gil Jardim, L&eacute;a Freire, Fernando Corr&ecirc;a, Thiago Costa e Rafael dos Santos entre outros. Atualmente, &eacute; trombonista da Orquestra Jovem Tom Jobim, Fredom Jazz Big Band, Combo Sarar&aacute; e Ensemble Brasileiro de Paulo Tin&eacute;, e tamb&eacute;m &eacute; professor da Escola de Musica ADNIPO.
+</p>
+</div>
+
+
+<div class="container" id="prof13">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Jos&eacute; Manzoli<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+M&uacute;sica e t&eacute;cnica Vocal &ndash; conservat&oacute;rio Multy Music &ndash;Irley Santos ( Canto Americano 8 Anos). Musicaliza&ccedil;&atilde;o e Canto Coral &ndash; Emesp/Ulm &ndash; Ana Beatriz Terra e Ana Paula Gesso ( Canto Erudito 1 Ano). Canto Coral &ndash; Coral Azul &ndash; Usp &ndash; Andre Juarez (4 Anos). Canto Coral  - A&amp;B  (1 mes)
+Liceu de Artes Tabo&atilde;o da Serra. (1 mes). Tecnica vocal - Carmina Juarez ( Canto Popular 3 Meses). Tecnica vocal Ir. Bento (Canto Gregoriano 1 mes). <br><br>
+
+Professor de Musica de 2008 ate 2014. Projeto Artear 2008 (prefeitura da Est&acirc;ncia Turistica de Embu). Pe&ccedil;a Pao poesia e circo Grupo Trapo (Cantor). Musico Catolico 15 anos. Mais de 500 casamentos / bodas /debutante. Backing /Vocal Coach -Cd  Em Expia&ccedil;&atilde;o &ndash; Cd tesouros. Backing Vocal  - Cantora Marilia Mello e Cristian Fernandes
+</p>
+</div>
+
+<div class="container" id="prof14">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Handemberg<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Leciona viol&atilde;o; teclado, cavaquinho, contra baixo el&eacute;trico, saxofone e clarinete
+Atua&ccedil;&atilde;o de aulas particulares desde 2004 dos instrumentos citados acima.
+Trabalhos realizados em orquestras e bandas sinf&ocirc;nicas,  orquestra de frevo, grupos de samba e choro, big band dentre outras forma&ccedil;&otilde;es musicais; casamentos e eventos diversos.
+</p>
+</div>
+
+
+<div class="container" id="prof15">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Cesar Avolio<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Musico instrumentista e compositor.  <br><br>
+
+A 10 anos come&ccedil;ou a se interessar pela guitarra, e desde ent&atilde;o,  n&atilde;o largou mais o instrumento. <br><br>
+
+Apos alguns  anos tocando pop e  rock  na casas de show como Inferno e Outs, decde , aos  16 anos, seguir carreira profissional de musico  e partir  ara um campo mais rebuscado da &aacute;rea.
+Desde o ano de 2010, ano em que entrou na faculdade de musica , vem dando aulas em conservat&oacute;rios e particulares 
+</p>
+</div>
+
+
+<div class="container" id="prof16">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Ana Karina Sebastiao<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Professora de baixo e Teclado, musicista profissional. <br><br>
+Apesar da pouca idade, faz trabalhos como baixista na banda do programa altas horas da rede globo, tem em seu curr&iacute;culo varias turn&ecirc;s e cds gravados com m&uacute;sicos renomados. <br><br>
+Atualmente faz turn&ecirc; com o Arrigo Barnab&eacute;.
+</p>
+</div>
+
+
+
+
+
+
+
+<!-- 
 <div class="ourmedia" id="media" data-stellar-background-ratio="0.5">
 <div class="container">
 <div class="row-fluid PageHead inverse">
@@ -237,54 +526,300 @@ The restless Lewis began crooning something while strumming on his guitar, John 
 </div>
 </div>
 </div>
- 
+ -->
+
+
 <div id="contact">
 <div class="container">
 <div class="row-fluid PageHead">
 <div class="span12">
-<h3>CONTACT US<span> <img src="images/underline.png" alt="______"></span></h3>
+<h3>CONTATO<span> <img src="images/underline.png" alt="______"></span></h3>
 </div>
 </div>
 <div class="row-fluid ContactUs">
 <div class="span6">
 <form class="form-horizontal" id="phpcontactform">
 <div class="control-group">
-<input class="input-block-level" type="text" placeholder="Full Name" name="name" id="name">
+<input class="input-block-level" type="text" placeholder="Nome Completo" name="name" id="name" style="height:30px;margin-bottom: -10px;">
 </div>
 <div class="control-group">
-<input class="input-block-level" type="email" placeholder="Email ID" name="email" id="email">
+<input class="input-block-level" type="email" placeholder="E-mail" name="email" id="email" style="height:30px;margin-bottom: -10px;">
 </div>
 <div class="control-group">
-<input class="input-block-level" type="text" placeholder="Mobile Number" name="mobile" id="mobile">
+<input class="input-block-level" type="text" placeholder="Telefone" name="mobile" id="mobile" style="height:30px;margin-bottom: -10px;">
 </div>
 <div class="control-group">
-<textarea class="input-block-level" rows="10" name="message" placeholder="Your Message" id="message"></textarea>
+<input class="input-block-level" type="text" placeholder="Celular" name="mobile2" id="mobile2" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<input class="input-block-level" type="text" placeholder="Endere&ccedil;o" name="address" id="address" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<input class="input-block-level" type="text" placeholder="Bairro" name="neighborhood" id="neighborhood" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<div>
+<span>Dias dispon&iacute;veis para o seu curso:</span><br><br>
+<div id="column1-wrap">
+    <div id="column1">
+        <span>
+            <label class="checkbox" style="font-weight:100">
+                <input type="checkbox" name="dias[]" value="Segunda-Feira" />Segunda-Feira
+            </label>
+        </span>
+        <span>
+            <label class="checkbox" style="font-weight:100">
+                <input type="checkbox" name="dias[]" value="Ter&ccedil;a-Feira" />Ter&ccedil;a-Feira
+            </label>
+        </span>
+    </div>
+</div>
+<div id="column2">
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="dias[]" value="Quarta-Feira" />Quarta-Feira
+        </label>
+    </span>
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="dias[]" value="Quinta-Feira" />Quinta-Feira
+        </label>
+    </span>
+</div>
+<div id="column3">
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="dias[]" value="Sexta-Feira" />Sexta-Feira
+        </label>
+    </span>
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="dias[]" value="S&aacute;bado" />S&aacute;bado
+        </label>
+    </span>
+</div>
+<div id="clear"></div>
+</div>
+</div>
+<div class="control-group">
+<div>
+<span>Per&iacute;odo de prefer&ecirc;ncia para a aula:</span><br><br>
+<div id="column1-wrap">
+    <div id="column1">
+        <span>
+            <label class="checkbox" style="font-weight:100">
+                <input type="checkbox" name="period[]" value="Manh&atilde;" />Manh&atilde;
+            </label>
+        </span>
+    </div>
+</div>
+<div id="column2">
+   <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="period[]" value="Tarde" />Tarde
+        </label>
+    </span>
+</div>
+<div id="column3">
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="period[]" value="Noite" />Noite
+        </label>
+    </span>
+</div>
+<div id="clear"></div>
+</div>
+</div>
+<div class="control-group">
+<span>Curso Escolhido:</span><br><br>
+<select id="curso" class="input-block-level">
+    <option selected="" />- Canto: Popular e L&iacute;rico
+    <option />- Viol&atilde;o
+    <option />- Guitarra
+    <option />- Contrabaixo
+    <option />- Baixo
+    <option />- Cavaquinho
+    <option />- Viola Caipira
+    <option />- Bandolim
+    <option />- Violino
+    <option />- Violino El&eacute;ctrico
+    <option />- Viola
+    <option />- Violoncelo
+    <option />- Teclado
+    <option />- Bateria
+    <option />- Flauta Doce
+    <option />- Flauta Transvensal
+    <option />- Saxofone
+    <option />- Clarinete
+    <option />- Trompete
+    <option />- Trombone
+    <option />- Bombardino
+    <option />- Obo&eacute;
+</select>
+</div>
+<div class="control-group">
+<textarea class="input-block-level" rows="10" placeholder="Mensagem" name="message" id="message"></textarea>
 </div>
 <div class="control-group">
 <p>
-<input class="btn btn-danger btn-large" type="submit" value="Send Message">
+<input class="btn btn-danger btn-large" type="submit" value="Enviar">
 </p>
-<span class="loading"></span> </div>
+<span class="loading"></span></div>
 </form>
 </div>
 <div class="span6">
 <div class="row-fluid">
 <div class="span12">
-<h4> Australia </h4>
+<h4> D&#39;Brothers </h4>
 <address>
-<strong>Raaga Band Ltd</strong>, 13/2 Elizabeth Street<br>
-Melbourne VIC 30007, Australia<br>
-<abbr title="Phone">P:</abbr> +61 3 8376 6284<br>
-<abbr title="Email"> E: </abbr> <a href="http://www.cloudflare.com/email-protection#582b2d2828372a2c182b2d2a32312c303b2c3421763136"><span class="__cf_email__" data-cfemail="b3c0c6c3c3dcc1c7f3c0c6c1d9dac7dbd0c7dfca9ddadd">[email&nbsp;protected]</span><script type="text/javascript">
-/* <![CDATA[ */
-(function(){try{var s,a,i,j,r,c,l,b=document.getElementsByTagName("script");l=b[b.length-1].previousSibling;a=l.getAttribute('data-cfemail');if(a){s='';r=parseInt(a.substr(0,2),16);for(j=2;a.length-j;j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}s=document.createTextNode(s);l.parentNode.replaceChild(s,l);}}catch(e){}})();
-/* ]]> */
-</script></a> <br>
+Av. Otac&iacute;lio Tomanik, 370. Sala 08 – Jd. Bonfiglioli, Butant&atilde;, SP. <br>
+(Pr&eacute;dio Azul, esquina com o Buffet Viva Vida).<br>
+(Atendimento somente com hora marcada)<br>
+Segunda a sexta das 9h &agrave;s 22h, S&aacute;bado das 9h &agrave;s 15h.
 </address>
 </div>
 </div>
 <div class="row-fluid">
-<div class="span12"> <img src="http://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&amp;zoom=13&amp;size=600x300&amp;scale=2&amp;sensor=false" alt="static map"> <br>
+<div class="span12"> <img src="http://maps.googleapis.com/maps/api/staticmap?center=Butanta+State+of+São+Paulo,+Brasil,NY&amp;zoom=13&amp;size=600x300&amp;scale=2&amp;sensor=false" alt="static map"> <br>
+<br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div id="jobs">
+<div class="container">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>TRABALHE CONOSCO<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<div class="row-fluid ContactUs">
+<div class="span6">
+<form class="form-horizontal" id="phpcontactform">
+<div class="control-group">
+<input class="input-block-level" type="text" placeholder="Nome Completo" name="name" id="name" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<input class="input-block-level" type="email" placeholder="E-mail" name="email" id="email" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<input class="input-block-level" type="text" placeholder="Telefone" name="mobile" id="mobile" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<input class="input-block-level" type="text" placeholder="Celular" name="mobile2" id="mobile2" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<input class="input-block-level" type="text" placeholder="Endere&ccedil;o" name="address" id="address" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<input class="input-block-level" type="text" placeholder="Bairro" name="neighborhood" id="neighborhood" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<div>
+<span>Dias dispon&iacute;veis para dar aulas:</span><br><br>
+<div id="column1-wrap">
+    <div id="column1">
+        <span>
+            <label class="checkbox" style="font-weight:100">
+                <input type="checkbox" name="dias[]" value="Segunda-Feira" />Segunda-Feira
+            </label>
+        </span>
+        <span>
+            <label class="checkbox" style="font-weight:100">
+                <input type="checkbox" name="dias[]" value="Ter&ccedil;a-Feira" />Ter&ccedil;a-Feira
+            </label>
+        </span>
+    </div>
+</div>
+<div id="column2">
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="dias[]" value="Quarta-Feira" />Quarta-Feira
+        </label>
+    </span>
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="dias[]" value="Quinta-Feira" />Quinta-Feira
+        </label>
+    </span>
+</div>
+<div id="column3">
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="dias[]" value="Sexta-Feira" />Sexta-Feira
+        </label>
+    </span>
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="dias[]" value="S&aacute;bado" />S&aacute;bado
+        </label>
+    </span>
+</div>
+<div id="clear"></div>
+</div>
+</div>
+<div class="control-group">
+<div>
+<span>Per&iacute;odo de prefer&ecirc;ncia para dar aulas:</span><br><br>
+<div id="column1-wrap">
+    <div id="column1">
+        <span>
+            <label class="checkbox" style="font-weight:100">
+                <input type="checkbox" name="period[]" value="Manh&atilde;" />Manh&atilde;
+            </label>
+        </span>
+    </div>
+</div>
+<div id="column2">
+   <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="period[]" value="Tarde" />Tarde
+        </label>
+    </span>
+</div>
+<div id="column3">
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="period[]" value="Noite" />Noite
+        </label>
+    </span>
+</div>
+<div id="clear"></div>
+</div>
+</div>
+<div class="control-group">
+<input class="input-block-level" type="text" placeholder="Matérias Que Deseja Lecionar. Ex. Viol&atilde;o, Baixo, Bateria, etc..." name="learn" id="learn" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<textarea class="input-block-level" rows="10" placeholder="Mensagem" name="message" id="message"></textarea>
+</div>
+<div class="control-group">
+<p>
+<input class="btn btn-danger btn-large" type="submit" value="Enviar">
+</p>
+<span class="loading"></span></div>
+</form>
+</div>
+<div class="span6">
+<div class="row-fluid">
+<div class="span12">
+<h4> D&#39;Brothers </h4>
+<address>
+Av. Otac&iacute;lio Tomanik, 370. Sala 08 – Jd. Bonfiglioli, Butant&atilde;, SP. <br>
+(Pr&eacute;dio Azul, esquina com o Buffet Viva Vida).<br>
+(Atendimento somente com hora marcada)<br>
+Segunda a sexta das 9h &agrave;s 22h, S&aacute;bado das 9h &agrave;s 15h.
+</address>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span12"> <img src="http://maps.googleapis.com/maps/api/staticmap?center=Butanta+State+of+São+Paulo,+Brasil,NY&amp;zoom=13&amp;size=600x300&amp;scale=2&amp;sensor=false" alt="static map"> <br>
 <br>
 </div>
 </div>
@@ -297,25 +832,13 @@ Melbourne VIC 30007, Australia<br>
 <div class="container">
 <div class="row-fluid PageHead inverse">
 <div class="span12">
-<h3>We are Social<span> <img src="images/underline.png" alt="______"></span></h3>
+<h3>Social<span> <img src="images/underline.png" alt="______"></span></h3>
 </div>
 </div>
 <div class="row-fluid">
-<div class="span12 TwitterFeed hidden-phone">
-<div id="TwitterBlock">
-<div id="TwitterLogo"> <img src="images/twitter_logo.png" alt="twitter logo"/> </div>
-<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/surjithctly" data-widget-id="295872977659117568" data-tweet-limit="1" data-chrome="nofooter transparent noborders noheader"></a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-<div id="TwitterFooter"> <a href="https://twitter.com/surjithctly" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @surjithctly</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<div class="span12 socialButtons"><a href="http://facebook.com/EscolaDeMusicaDbrothers" target="_blank"><img src="images/facebook_icon.png" alt="facebook"></a></div>
 </div>
-</div>
-</div>
-</div>
-<div class="row-fluid">
-<div class="span12 socialButtons"> <a href="http://twitter.com/surjithctly" target="_blank"> <img src="images/twitter_icon.png" alt="twitter"></a> <a href="http://facebook.com/web3canvas" target="_blank"><img src="images/facebook_icon.png" alt="facebook"></a> <a href="http://web3canvas.com/" target="_blank"><img src="images/linkedin_icon.png" alt="linkedin"></a> </div>
-</div>
-<p class="text-center">Copyright &copy; 2013. Raaga Band. Buy it on Themeforest</p>
+<p class="text-center">Copyright &copy; 2010. D&#39;Brothers Aulas de M&uacute;sica. Design by <a href="http://flushoutsolutions.com" target="_blank">FlushOut Solutions</a> </p>
 </div>
 </div>
  
@@ -329,11 +852,11 @@ Melbourne VIC 30007, Australia<br>
             $(function() {
                 $('.nav li a, .jumbotron p a').bind('click',function(event){
                     var $anchor2 = $(this).parent();
-				    var $anchor = $(this);
-					$('.nav  li').removeClass('active');
+                    var $anchor = $(this);
+                    $('.nav  li').removeClass('active');
                     $anchor2.addClass('active');
-			
-			
+            
+            
                     $('html, body').stop().animate({
                         scrollTop: $($anchor.attr('href')).offset().top - 50
                     }, 1500,'easeInOutExpo');

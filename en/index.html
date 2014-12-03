@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Raaga - Responsive Parallax Template for Bands</title>
+<title>D&#39;Brothers School of Music</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
 <link href="css/bootstrap.css" rel="stylesheet">
@@ -30,29 +30,73 @@
 <script type="text/javascript" src="js/jquery.fancybox63b9.js?v=2.1.4"></script>
 <link rel="stylesheet" type="text/css" href="css/jquery.fancybox63b9.css?v=2.1.4" media="screen"/>
 <script type="text/javascript">
-		$(document).ready(function() {
-			$('.fancybox').fancybox({
-    helpers : {
-        overlay : {
-            locked : false,
-        }
-    }
-});
-});
+    $(document).ready(function() {
+        $( "#prof1" ).hide();
+        $( "#prof2" ).hide();
+        $( "#prof3" ).hide();
+        $( "#prof4" ).hide();
+        $( "#prof5" ).hide();
+        $( "#prof6" ).hide();
+        $( "#prof7" ).hide();
+        $( "#prof8" ).hide();
+        $( "#prof9" ).hide();
+        $( "#prof10" ).hide();
+        $( "#prof11" ).hide();
+        $( "#prof12" ).hide();
+        $( "#prof13" ).hide();
+        $( "#prof14" ).hide();
+        $( "#prof15" ).hide();
+
+        $('.fancybox').fancybox({
+            'afterClose': function() {
+                
+            },
+            'afterLoad': function() {
+                
+            },
+            helpers : {
+                overlay : {
+                    locked : false,
+                }
+            }
+        });
+    });
 </script>
  
  
 <script src="js/stellar.js"></script>
 <script>
-		$(function(){
-			$.stellar({
-				horizontalScrolling: false,
-				verticalOffset: 40
-			});
-		});
-		</script>
+        $(function(){
+            $.stellar({
+                horizontalScrolling: false,
+                verticalOffset: 40
+            });
+        });
+        </script>
  
 <script src="js/contact_form.js"></script>
+<style type="text/css">
+    #column1-wrap {
+        float: left;
+        width: 100%;
+    }
+    #column1 {
+        margin-right: 200px;
+    }
+    #column2 {
+        float: left;
+        width: 200px;
+        margin-left: -400px;
+    }
+    #column3 {
+        float: left;
+        width: 200px;
+        margin-left: -200px;
+    }
+    #clear {
+        clear: both;
+    }
+</style>
 </head>
 <body>
 <a id="home"></a>
@@ -65,25 +109,18 @@
  
 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
  
-<a class="brand" href="#"> <img src="images/logo-small.png" alt="logo"></a>
+<a class="brand active" href="../en/index.html" style="text-shadow: none;font-size: 14px;text-transform: uppercase;"> English</a> 
+<a class="brand" href="../pt/index.html" style="text-shadow: none;font-size: 14px;text-transform: uppercase;"> Portugu&ecirc;s</a> 
  
 <div class="nav-collapse collapse">
  
 <ul class="nav pull-right">
 <li class="active"><a href="#home">HOME</a></li>
-<li><a href="#events">EVENTS</a></li>
-<li><a href="#about">ABOUT</a></li>
-<li><a href="#gallery">GALLERY</a></li>
-<li><a href="#media">MEDIA</a></li>
-<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
-<ul class="dropdown-menu">
-<li><a href="blog.html" target="_blank">BLOG LIST</a></li>
-<li><a href="blog-post.html" target="_blank">SINGLE BLOG PAGE</a></li>
-<li><a href="404.html" target="_blank">404 PAGE</a></li>
-<li><a href="soon.html" target="_blank">COMING SOON</a></li>
-</ul>
-</li>
+<li><a href="#about">ABOUT US</a></li>
+<li><a href="#benefits">BENEFITS</a></li>
+<li><a href="#teachers">TEACHERS</a></li>
 <li><a href="#contact">CONTACT</a></li>
+<li><a href="#jobs">JOBS</a></li>
 </ul>
 </div>
 </div>
@@ -95,120 +132,377 @@
 <ul class="slides">
 <li>
 <div class="hero-unit">
-<p class="text-center"><img src="images/logo-big.png" alt="band logo"></p>
-<h1>THE SOUL OF MUSIC</h1>
-<h3 class="subtitle fancy hidden-phone"><span>OFFICIAL BAND WEBSITE</span></h3>
-</div>
-</li>
-<li>
-<div class="slide2">
-<p>
-<iframe width="640" height="360" src="https://www.youtube.com/embed/nlNuHjp2fB8" allowfullscreen></iframe>
-</p>
-<h3>YOUTUBE VIDEO WITH CAPTION</h3>
-</div>
-</li>
-<li>
-<div class="slide3">
-<p class="text-center"> <img src="images/slider_img.jpg" alt="Slider Image"> </p>
-<h1>LONDON MUSIC NIGHT</h1>
-<h3>ONLY LIMITED SEATS AVAILABLE. HURRY UP!!</h3>
-<p class="hidden-phone"> <a href="#" class="btn btn-danger btn-large">BOOK TICKETS</a> </p>
+<h1>D&#39;BROTHERS</h1>
+<h3 class="subtitle fancy hidden-phone"><span>SCHOOL OF MUSIC</span></h3>
 </div>
 </li>
 </ul>
 </div>
-<p class="text-center hidden-phone"> <a href="#events"><img src="images/arrow-bottom.png" alt="sroll to arrow"></a></p>
+<p class="text-center hidden-phone"> <a href="#about"><img src="images/arrow-bottom.png" alt="sroll to arrow"></a></p>
 </div>
 </div>
  
-<div class="container"> <a id="events"></a>
+<div class="container"> <a id="about"></a>
 <div class="row-fluid PageHead">
 <div class="span12">
-<h3>UPCOMING EVENTS<span> <img src="images/underline.png" alt="______"></span></h3>
+<h3>ABOUT US<span> <img src="images/underline.png" alt="______"></span></h3>
 </div>
 </div>
 <div class="row-fluid EventsList">
 <div class="span4">
 <div class="thumbnail">
 <div class="caption">
-<h3>LONDON MUSIC NIGHT</h3>
-<p>Sep 17, 06:00 PM</p>
-<p class="text-center"><a href="#" class="btn btn-med">TICKETS</a> </p>
+<h3>A LITTLE HISTORY</h3>
+<p>D&#39;Brothers WAS FIRST FORMED AS A BAND BY BROTHERS: ANA KARINA, RICARDO JUNIOR, MICHEL MIX AND ULYSSES BATERA, WHERE THE FOCUS WAS PARTIES AND ROCK FESTIVALS IN SÃO PAULO.
+</p>
 </div>
 </div>
 </div>
 <div class="span4">
 <div class="thumbnail">
 <div class="caption">
-<h3>RAAGA MUSIC FESTIVAL</h3>
-<p>OCT 22, 08:30 PM</p>
-<p class="text-center"><a href="#" class="btn btn-med">TICKETS</a> </p>
+<h3>The BEGGINING</h3>
+<p>WITH TIME, THE DEMAND FOR THE BAND’S SERVICES WAS INCREASING, AND THEN IT WAS necessary to formalize THE BAND AS A COMPANY SPECIALIZED IN EVENTS, PARTIES, cocktails and Ceremonial AND MUSICAL EDUCATION.</p>
 </div>
 </div>
 </div>
 <div class="span4">
 <div class="thumbnail">
 <div class="caption">
-<h3>INDIAN MEGA FOLK WEEK</h3>
-<p>NOV 05, 10:00 PM</p>
-<p class="text-center"><a href="#" class="btn btn-med">TICKETS</a> </p>
+<h3>THE SCHOOL</h3>
+<p>THE SCHOOL OF MUSIC D&#39;BROTHERS IS A BRANCH OF THE COMPANY D&#39;BROTHERS, COORDINATED BY MR. RICARDO JR, DIRECTOR AND RESPONSIBLE FOR THE RECRUITMENT OF TEACHERS ALL OVER THE CITY OF S&atilde;O PAULO.</p>
 </div>
 </div>
 </div>
 </div>
-<p class="sectionfooter text-center"> <a class="showmore btn-link"><img src="images/show_icon.png" alt="icon"> SHOW ALL EVENTS (06)</a> </p>
 </div>
  
-<div class="about" id="about" data-stellar-background-ratio="0.5">
+<div class="about" id="benefits" data-stellar-background-ratio="0.5">
 <div class="container">
 <div class="row-fluid PageHead inverse">
 <div class="span12">
-<h3>ABOUT THE BAND<span> <img src="images/underline.png" alt="______"></span></h3>
+<h3>Benefits For Children<span> <img src="images/underline.png" alt="______"></span></h3>
 </div>
 </div>
-<p class="lead text-center">It was during Lewis's jingles career that the idea of Raaga was conceived. Lewis had called in John to sing a jingle for him one evening in 1992. The lyrics for the jingle were late coming in. <br>
-<br>
-The restless Lewis began crooning something while strumming on his guitar, John felt inspired to jam with an alaap, and the result: the seamless fusion of Eastern and Western sounds that has become the quintessential characteristic of the Raaga.</p>
+<p class="lead text-center">
+- For children, help in the development of motor coordination, memory, concentration, learning and interpersonal relations, reflecting a better school performance.
+</p>
 <div class="row-fluid PageHead inverse">
 <div class="span12">
-<h3>THE ROCKING TEAM<span> <img src="images/underline.png" alt="______"></span></h3>
+<h3>Benefits For Adults<span> <img src="images/underline.png" alt="______"></span></h3>
 </div>
 </div>
-<div class="row-fluid theteam">
-<div class="span2"><img src="images/team_img1.jpg" alt="team"></div>
-<div class="span2"><img src="images/team_img2.jpg" alt="team"></div>
-<div class="span2"><img src="images/team_img3.jpg" alt="team"></div>
-<div class="span2"><img src="images/team_img4.jpg" alt="team"></div>
-<div class="span2"><img src="images/team_img5.jpg" alt="team"></div>
-<div class="span2"><img src="images/team_img6.jpg" alt="team"></div>
+<p class="lead text-center">
+- For adults, the music reduces stress, providing moments of relaxation and consequent improvement of physical and mental health, and brings unique moments in the company of friends and family.
+</p>
+<div class="row-fluid PageHead inverse">
+<div class="span12">
+<h3>Music in BEST AGE <span> <img src="images/underline.png" alt="______"></span></h3>
 </div>
 </div>
+<p class="lead text-center">
+- And for those who think that the age for learning music has already passed, are wrong. After all, it's no wonder that old age is known as the best age. This is the time to exercise your mind and, for that, nothing better than learning new skills.
+</p>
 </div>
- 
-<div class="container"> <a id="gallery"></a>
+</div>
+
+
+<!--
+<div class="about" id="teachers" data-stellar-background-ratio="0.5">
+<div class="container">
+<div class="row-fluid PageHead inverse">
+<div class="span12">
+<h3>NOSSOS PROFESSORES<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">Voc&ecirc; j&aacute; teve vontade ou pensou em aprender a tocar algum instrumento musical? A m&uacute;sica pode te ajudar a ter um ano com mais alegria, paz, sa&uacute;de e momentos especiais. <br>
+<br>
+Ricardo <br>  
+Diretor e professor da empresa: Escola de Musica  D&#39;Brothers <br>
+&quot;A m&uacute;sica expressa o que n&atilde;o pode ser dito em palavras, mas n&atilde;o pode permanecer em sil&ecirc;ncio.&quot; (Victor Hugo) <br><br>
+Nossos profissionais se especializaram em oferecer aulas em domicilio, proporcionando um &oacute;timo atendimento, com profissionais qualificados e confi&aacute;veis para que voc&ecirc; desfrute da prazerosa pratica de estudar m&uacute;sica, sem sair do conforto de sua resid&ecirc;ncia.</p>
+</div>
+</div>
+-->
+
+
+<div class="container"> <a id="teachers"></a>
 <div class="row-fluid PageHead">
 <div class="span12">
-<h3>IMAGE GALLERY<span> <img src="images/underline.png" alt="______"></span></h3>
+<h3>our teachers<span> <img src="images/underline.png" alt="______"></span></h3>
 </div>
 </div>
 <div class="row-fluid Gallery">
 <div class="span12">
 <ul>
-<li><a class="fancybox" href="images/gallery/photos/big1.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb1.jpg" alt=""/></a></li>
-<li><a class="fancybox" href="images/gallery/photos/big2.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb2.jpg" alt=""/></a></li>
-<li><a class="fancybox" href="images/gallery/photos/big3.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb3.jpg" alt=""/></a></li>
-<li><a class="fancybox" href="images/gallery/photos/big4.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb4.jpg" alt=""/></a></li>
-<li><a class="fancybox" href="images/gallery/photos/big5.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb5.jpg" alt=""/></a></li>
-<li><a class="fancybox" href="images/gallery/photos/big6.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb6.jpg" alt=""/></a></li>
-<li><a class="fancybox" href="images/gallery/photos/big7.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb7.jpg" alt=""/></a></li>
-<li><a class="fancybox" href="images/gallery/photos/big8.jpg" data-fancybox-group="gallery" title="Band photos"><img src="images/gallery/thumb/thumb8.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof1" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_1.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof2" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_2.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof3" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_3.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof4" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_4.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof5" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_5.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof6" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_6.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof7" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_7.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof8" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_8.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof9" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_9.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof10" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_10.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof11" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_11.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof12" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_12.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof13" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_13.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof14" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_14.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof15" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_15.jpg" alt=""/></a></li>
+<li><a class="fancybox" href="#prof16" data-fancybox-group="gallery" title=""><img src="images/gallery/thumb/thumb_16.jpg" alt=""/></a></li>
 </ul>
 <p class="sectionfooter text-center">&nbsp; </p>
 </div>
 </div>
 </div>
- 
+
+
+<div class="container" id="prof1">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>RICARDO JUNIOR<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Teacher, arranger, composer and multi-instrumentalist musician, music school director responsible for the company&apos;s department of classes
+D&apos;brohers. Gives classes since 2004, where he was part of faculty of schools and conservatories of the city of S&atilde;o Paulo. <br><br>
+
+Graduates in music and Master in teaching in higher education, has made works related to music and learning, aiming to show that the importance of music in the process of learning, reasoning, memory, among others, in the pedagogical and andragogical aspects. <br><br>
+
+Guitarist Member of D`brothers band formed with his brothers, where he works in the field of events, parties and ceremonies throughout S&atilde;o Paulo. <br><br>
+</p>
+</div>
+
+<div class="container" id="prof2">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Alessandro Granato<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Teacher, composer and multi-instrumentalist musician. He began his musical studies in guitar at age 14 in S&atilde;o Jos&eacute; dos Campos, S&atilde;o Paulo with&rsquo;1 Marcelo Lira (Music Educator of EMAK, S&atilde;o Jos&eacute; dos Campos, Brazil). <br><br>
+
+The interest in music and learning other instruments led him, at 19 years, to study Popular Piano &amp; Keyboard in &lsquo;&rsquo;Melodia&rsquo;&rsquo; school of music with teacher Carlos Magno in S&atilde;o Jos&eacute; dos Campos. Between 2004 and 2010 went through several formations of various styles bands (Forro, Reggae, Rock, Pop Rock, Beatles Cover) playing guitar, electric guitar or keyboards in studio recordings, concerts with regional bands and at weddings. <br><br>
+
+2010 to the present began to devote himself to teach the acoustic/electric and keybord with private lessons at his residence and domicile.
+</p>
+</div>
+
+<div class="container" id="prof3">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Andressa Parra<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Singer, began her musical studies at age 14 in Itapecerica da Serra, playing flute in the project &lsquo;&rsquo;Orquestra jovem&rsquo;&rsquo;, besides the &lsquo;&rsquo;Coral&rsquo;&rsquo; Project, in the same city. She graduated from the technical course of Beethoven Musical Conservatory in popular singing, where she also took classical singing lessons and Popular Piano. <br><br>
+
+Bachelor on popular singing at the &lsquo;&rsquo;Faculdade Alcantara Machado&rsquo;&rsquo; (FAAM), currently attends the school musical theater 4 act and makes vocal techniques lessons with opera singer C&eacute;line Imbert. Ministers Singing lessons and Musicalization in &lsquo;&rsquo;Villa Musical&rsquo;&rsquo; and &lsquo;&rsquo;Centro Musical&rsquo;&rsquo; schools; private lessons in singing, flute and theory. As a singer, performed in ceremonies and wedding parties with Coral Lumen and Ceremonial D&apos;Brothers. <br><br>
+
+Has participated in advertising jingles, performed in bars and events in general in S&atilde;o Paulo. Recently served as choir member of the &lsquo;&rsquo;&Oacute;pera Colombo&rsquo;&rsquo; in S&atilde;o Pedro theatre in San Pedro, along with the Orchestra of the S&atilde;o Pedro Theater.
+</p>
+</div>
+
+<div class="container" id="prof4">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Bruno Godinho<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Bruno Godinho began his studies at age eleven with the guitar teacher Max Ver. He began to devote more to music when he joined the Conservatory Souza Lima, where he had harmony lessons, reading, piano, improvisation and perception with many teachers, such as Pollaco Rafael Bittencourt, Kiko Loureiro, Miguel Laprano, Ana Maria Vieira and many others. Once completed the second grade, he joined the Faculty of Music Alcantara Machado (FAAM / FMU). In this academic environment, he studied harmony, counterpoint, history of music, group practic, analysis, etc., with numerous renowned musicians such as Marisa Ramirez, Sidney Moglina Paul Tin&eacute; among others. In the same period, he studied with Valmyr Tavares and Conrado Paulino teachers.
+Worked between 2001 and 2005 in the magazine Guitar Class (Publisher Talisman). Throughout this period, transcribed numerous songs of various musical genres. Heraldo do Monte, Ricardo Silveira, Greg Howe, Eddie Van Halen, John Petrucci, etc. are some examples of players who have been transcribed by Bruno Godinho. Also journalistic materials were performed with guitarists Michel Leme, Kiko Loureiro, Edu Ardanuy, etc. In this field, has been working also as a freelance transcriber, being hired to transcribe individual songs, methods, books, etc.
+Ministers guitar tutoring since 2001. Has his own method and handouts, which addresses a variety of subjects such as reading, art, harmony, arrangement, music theory and technique. Has worked in playbacks arrangement, for better performance of their students.
+
+</p>
+</div>
+
+
+<div class="container" id="prof5">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Mia Kay<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Mia Kay guitarist began playing on stage in S&atilde;o Paulo with 16 years. After going through various cover bands, she was recruited to join the acclaimed group of DJs Female Angels, having the opportunity to travel through Brazil and playing for 50,000 people in Singapore.<br><br>
+
+Mia began studying classical guitar at the age of 11 and soon fell in love with guitar. She studied with Teachers Monica Agena and Rodrigo Vanni and Marcelo Munari teachers. Since then, she graduated in Communication and traveled to Los Angeles to study Music Business at the Musicians Institute, where he graduated in June 2012.<br><br>
+
+In 2013, she goes ahead with the electronic music project Animale - which also involved the DJ Lara Light and singer Natalie Bergamo - her female band HEY, LADIES! and the Duo Single Ladies, an acoustic in partnership with the singer Erica Pinna.
+</p>
+</div>
+
+<div class="container" id="prof6">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Wolfgang Nassif<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Professional experience:<br>
+- Private piano lessons / keyboard, clarinet and music theory<br>
+- Piano teacher for two years at the IMB - Musical Institute Bonfiglioli<br><br>
+
+He began his piano studies at the age of 10, through conservatories and schools mentioned above, at age 18 began his clarinet studies. After that, he played in bands and ensembles with diverse backgrounds, as an integral and free lancer. Also gave and gives residencial private lessons and at schools.
+</p>
+</div>
+
+<div class="container" id="prof7">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Michel Mix<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Born in S&atilde;o Paulo on  December 21st 1987, began studying music at age 15 doing piano lessons with teacher Metyca. At 18 he joined the Faculty of Arts Alc&acirc;ntara Machado (FAAM) where he began studying popular singing with Tuca Fernandes teacher. Continued his singing studying also at the former ULM (Free University of Music) with teachers Patricia Escobar, Andreia dos Guimar&atilde;es and Maria Cecilia Barad&eacute;u, who is currently studying vocal technique of classical singing. <br><br>
+
+Participated in projects involving choir, one in the theater Tuca, a Christmas event organized by theater and sung by the choir of FAAM, also attended the Filafro Diversity Choir in 2010 in Pompeii SESC and has starred in the operetta Noel Rosa (Bride Conductor). Other investments in cultural events such as presentations &lsquo;&rsquo;C&Eacute;US&rsquo;&rsquo; and cultural centers as well as Jingles recordings for movies with the ultimate work in 2011, dubbing the singing of the movie Gulliver&apos;s Travels playing the actor Jack Black. Is currently graduated in popular song and ministers &ccedil;pprivate singing lessons. Besides classes and events is lead singer of D&apos;Brothers that performs in prom parties, birthdays in general, weddings and is lead singer (backing vocals) hired by the band Link&apos;ed, which is the newest bet of Universal Music.
+</p>
+</div>
+
+<div class="container" id="prof8">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Juliana Bergamini<span><img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Born in the neighborhood of Jaguar&eacute; in Sao Paulo, Juliana has always had a very strong contact with music. Since her childhood Juliana was musicalized listening to great references of national and international popular music.
+At age 11 she began interest in playing drums when t got involved with the church band. Her family did not have much financial resource, so by herself, improved in the national Pop and, at 16, gave drum lessons as a volunteer in the church who participated. The interest in studying music increased when, at age 19, was invited to give drumming lessons in a school of public education. In 2006, completed a Child Musicalization course with Marcia Visconti, teacher of Musical initiation for babies and pregnant women and children&apos;s music education for children in  &lsquo;&rsquo;Fort das Artes&rsquo;&rsquo;, former director of the old school of music Tom Jobim and coordinator of Music Education in &lsquo;&rsquo;C&Eacute;US&rsquo;&rsquo; by Vitta Association.<br><br>
+Since then, Juliana started giving private lessons in popular singing with Milena Tarasiuk, currently soloist of the Municipal Theatre of S&atilde;o Paulo. It was also in 2006 that Juliana began participating in a choir facing the Black Music. In 2007, she began to give Child Musicalization classes and Singing in the school where she already gave Percussion lessons.<br>
+Currently working in CEUS of Jaguar&eacute; (where he worked as a volunteer at the end of 2011) and Anhanguera Park  giving lessons For Children by ADEP, an NGOs, and makes the course of Local Development Agent in &lsquo;&rsquo;Senac 9 de julho&rsquo;&rsquo;.
+
+</p>
+</div>
+
+<div class="container" id="prof9">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Anna Iris<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+She began her studies in 2004 and officially in 2008 under the baton of Gian Marco Aquino. Was concertmaster of Guri pole Morumbi orchestra. She played in the orchestra of the College Visconde de Porto Seguro House, conducted by Gretchen Miller, the Brazilian Music Orchestra EMESP, Regency Sizão Machado and Youth Orchestra of EMESP, conducted by Enio Antunes, Youth Symphony Orchestra Poa (maestro Sergio Fontana) . Also participated in the International Music Festival in Santa Catarina (FEMUSC). Currently studying with violinist Ney Aguiar, teaches violin lessons, initiated course of contemporary free improvisation in EMESP with professor Dimos Goudaroulis.  <br><br>
+
+Plays at the Youth Orchestra of Mogi das Cruzes, Philharmonic Orchestra of Santo Amaro (conductor Silvia Luizada) and Camerata ADEC (conductor Ivan Bueno)
+
+</p>
+</div>
+
+
+<div class="container" id="prof10">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Kalixto Pereira<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+He began his musical studies with his father who is a composer and singer. He studied piano and singing at the State Conservatory of Music Cora Pavan Caparelli in Minas Gerais where he was also director of the Children and Youth choir and piano teacher and individual corner. He studied piano with Cris Machado and Aracelli Chacon and singing with Edmar Ferretti, Mara Fields and Cora Caparelli. He was conductor of the choir assistant at the Federal University of Uberlândia where he also sang several songs and chamber operas. Has sung in varied repertoire of popular band show with different tones of voice. Sang at the municipal theater of Rio de Janeiro and other states as Ceará, Minas Gerais and São Paulo. Won first place in state competition piano a year after he started his instrument studies.<br><br>
+Today, he is in the last year of degree in music at the Cantareira College and as a teacher, defends the importance of proper methodology in music education. In his classes, prepares customized teaching strategies for each student.
+Calixto develops a vocal technique work and diction with its own method for those who want to learn to sing or speak in public as journalists, presenters, broadcasters, speakers and teachers. His classes include: breathing exercises; articulation of sounds and speed of pronunciation; volume techniques; Unlock - shyness; control of stuttering; fine tuning; interpretation. Composes classical music, popular and makes arrangements.
+
+</p>
+</div>
+
+
+<div class="container" id="prof11">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Rodrigo<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Teacher of guitar and keyboard and percussion, teaches music for teens and adults.
+</p>
+</div>
+
+
+<div class="container" id="prof12">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Gabriel Bispo<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+He began in music from an early age, having worked in Curitiba scenario since the age of 15, his first contact with music was in the church with the trumpet as this whas his initiation instrument passing a year later to the trombone, instrument given by the College in which he studied and later integrated the College Symphonic Band, Band where he stayed for five years, becoming one of the assistants and head of the trombone suit. In the same period entered to Curitiba MPB Conservatory in Piano course and orchestra practice, becoming one of the monitors of the course. In 2007 formed the jazz quartet &lsquo;&rsquo;jazz de cozinha&rsquo;&rsquo; performing Brazilian music and jazz where he stayed for one year in 2008. He went to live in S&atilde;o Paulo where he continued his studies at ULM, in the same year is invited by Maestro Paul Tin&eacute; to join the Big Band Santa. <br><br>
+
+He has worked with many musicians and artists including: Jair Rodrigues, Claudia Oliveira, Simoninha, Luciana Mello, Jairzinho, Os Cariocas, Quintet White and Black, Daniel, Marina Elali, Maestro Roberto Sion, Paulo Braga, Little Bustard Machado, Nelson Ayres, Pink steps, Monica Salmaso, La&eacute;rcio de Freitas, Gilson Peranzetta, Gil Jardim, L&eacute;a Freire, Fernando Corr&ecirc;a, Thiago Costa and Rafael dos Santos and others. He is currently the trombonista of Tom Jobim Youth Orchestra, Fredom Jazz Big Band, Combo Sarar&aacute; Ensemble and Brazilian Paulo Tin&eacute;, and is also a professor of the School of Music ADNIPO.
+</p>
+</div>
+
+
+<div class="container" id="prof13">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Jos&eacute; Manzoli<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Formation<br>
+Music and Vocal Technique - Multy Music Conservatory -Irley Santos (American Corner 8 Years).<br>
+Musicalization and Choir - EMESP / Ulm - Ana Beatriz Earth and Ana Paula Plaster (Song Scholar 1 Year)<br>
+Choir - Blue Coral - USP - Andre Juarez (4 Years)<br>
+Choir - A &amp; B (1 month)
+<br><br>
+Jobs:<br>
+2008 Music teacher until 2014<br>
+Artear Project 2008 (Prefecture Tourist office of Embu)<br>
+Pao poetry Play and circus Rag Group (Singer)
+
+
+
+</p>
+</div>
+
+<div class="container" id="prof14">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Handemberg<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+He teaches guitar; keyboard, ukulele, against electric bass, saxophone and clarinet
+Areas of tutoring since 2004 of acima. Worked in orchestras and symphonic bands, frevo orchestra, samba groups and cry, big band among other musical formations; many weddings and events.
+</p>
+</div>
+
+
+<div class="container" id="prof15">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Cesar Avolio<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Instrumentalist musician and composer.<br><br>
+The 10 years began to be interested in the guitar, and since then never stopped with the instrument. After few years playing pop and rock in concert halls as hell and Outs, decides at age 16 to follow a professional career as a musician and go for a more far-fetched field area. <br><br>
+
+Since 2010, the year he entered the music school, has been teaching in conservatories and private classes.
+
+</p>
+</div>
+
+
+<div class="container" id="prof16">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>Ana Karina Sebastiao<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<p class="lead text-center">
+Teacher of Bass and keyboard, professional musician, and despite her age, does work as a bass player in the band of the late Globe network program, has in her curriculum several tours and CDs recorded with renowned musicians, is currently touring with Arrigo Barnab&eacute;.
+</p>
+</div>
+
+
+
+
+
+
+
+<!-- 
 <div class="ourmedia" id="media" data-stellar-background-ratio="0.5">
 <div class="container">
 <div class="row-fluid PageHead inverse">
@@ -237,54 +531,299 @@ The restless Lewis began crooning something while strumming on his guitar, John 
 </div>
 </div>
 </div>
- 
+ -->
+
+
 <div id="contact">
 <div class="container">
 <div class="row-fluid PageHead">
 <div class="span12">
-<h3>CONTACT US<span> <img src="images/underline.png" alt="______"></span></h3>
+<h3>CONTACT<span> <img src="images/underline.png" alt="______"></span></h3>
 </div>
 </div>
 <div class="row-fluid ContactUs">
 <div class="span6">
 <form class="form-horizontal" id="phpcontactform">
 <div class="control-group">
-<input class="input-block-level" type="text" placeholder="Full Name" name="name" id="name">
+<input class="input-block-level" type="text" placeholder="Name" name="name" id="name" style="height:30px;margin-bottom: -10px;">
 </div>
 <div class="control-group">
-<input class="input-block-level" type="email" placeholder="Email ID" name="email" id="email">
+<input class="input-block-level" type="email" placeholder="E-mail" name="email" id="email" style="height:30px;margin-bottom: -10px;">
 </div>
 <div class="control-group">
-<input class="input-block-level" type="text" placeholder="Mobile Number" name="mobile" id="mobile">
+<input class="input-block-level" type="text" placeholder="Phone" name="mobile" id="mobile" style="height:30px;margin-bottom: -10px;">
 </div>
 <div class="control-group">
-<textarea class="input-block-level" rows="10" name="message" placeholder="Your Message" id="message"></textarea>
+<input class="input-block-level" type="text" placeholder="Mobile" name="mobile2" id="mobile2" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<input class="input-block-level" type="text" placeholder="Address" name="address" id="address" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<input class="input-block-level" type="text" placeholder="Neighborhood" name="neighborhood" id="neighborhood" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<div>
+<span>Available days  for your lessons:</span><br><br>
+<div id="column1-wrap">
+    <div id="column1">
+        <span>
+            <label class="checkbox" style="font-weight:100">
+                <input type="checkbox" name="dias[]" value="Segunda-Feira" />Monday
+            </label>
+        </span>
+        <span>
+            <label class="checkbox" style="font-weight:100">
+                <input type="checkbox" name="dias[]" value="Ter&ccedil;a-Feira" />Tuesday
+            </label>
+        </span>
+    </div>
+</div>
+<div id="column2">
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="dias[]" value="Quarta-Feira" />Wednesday
+        </label>
+    </span>
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="dias[]" value="Quinta-Feira" />Thursday
+        </label>
+    </span>
+</div>
+<div id="column3">
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="dias[]" value="Sexta-Feira" />Friday
+        </label>
+    </span>
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="dias[]" value="S&aacute;bado" />Saturday
+        </label>
+    </span>
+</div>
+<div id="clear"></div>
+</div>
+</div>
+<div class="control-group">
+<div>
+<span>Preferred period for lessons:</span><br><br>
+<div id="column1-wrap">
+    <div id="column1">
+        <span>
+            <label class="checkbox" style="font-weight:100">
+                <input type="checkbox" name="period[]" value="Manh&atilde;" />Morning
+            </label>
+        </span>
+    </div>
+</div>
+<div id="column2">
+   <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="period[]" value="Tarde" />Afternoon
+        </label>
+    </span>
+</div>
+<div id="column3">
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="period[]" value="Noite" />Night
+        </label>
+    </span>
+</div>
+<div id="clear"></div>
+</div>
+</div>
+<div class="control-group">
+<span>Lessons:</span><br><br>
+<select id="curso" class="input-block-level">
+    <option selected="" />- Singing: Popular and Lyric
+    <option />- Guitar
+    <option />- Double Blass
+    <option />- Bass
+    <option />- Small Guitar
+    <option />- Viola Caipira
+    <option />- Bandolim
+    <option />- Violin
+    <option />- Electric Violin
+    <option />- Viola
+    <option />- Violoncello
+    <option />- Music keyboard 
+    <option />- Drums
+    <option />- Recorder
+    <option />- Flute
+    <option />- Saxophone
+    <option />- Clarinet
+    <option />- Trumpet
+    <option />- Tuba
+    <option />- Euphonium
+    <option />- Oboe
+</select>
+</div>
+<div class="control-group">
+<textarea class="input-block-level" rows="10" placeholder="Message" name="message" id="message"></textarea>
 </div>
 <div class="control-group">
 <p>
-<input class="btn btn-danger btn-large" type="submit" value="Send Message">
+<input class="btn btn-danger btn-large" type="submit" value="Send">
 </p>
-<span class="loading"></span> </div>
+<span class="loading"></span></div>
 </form>
 </div>
 <div class="span6">
 <div class="row-fluid">
 <div class="span12">
-<h4> Australia </h4>
+<h4> D&#39;Brothers </h4>
 <address>
-<strong>Raaga Band Ltd</strong>, 13/2 Elizabeth Street<br>
-Melbourne VIC 30007, Australia<br>
-<abbr title="Phone">P:</abbr> +61 3 8376 6284<br>
-<abbr title="Email"> E: </abbr> <a href="http://www.cloudflare.com/email-protection#582b2d2828372a2c182b2d2a32312c303b2c3421763136"><span class="__cf_email__" data-cfemail="b3c0c6c3c3dcc1c7f3c0c6c1d9dac7dbd0c7dfca9ddadd">[email&nbsp;protected]</span><script type="text/javascript">
-/* <![CDATA[ */
-(function(){try{var s,a,i,j,r,c,l,b=document.getElementsByTagName("script");l=b[b.length-1].previousSibling;a=l.getAttribute('data-cfemail');if(a){s='';r=parseInt(a.substr(0,2),16);for(j=2;a.length-j;j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}s=document.createTextNode(s);l.parentNode.replaceChild(s,l);}}catch(e){}})();
-/* ]]> */
-</script></a> <br>
+Av. Otac&iacute;lio Tomanik, 370. Sala 08 – Jd. Bonfiglioli, Butant&atilde;, SP. <br>
+(Blue Building, corner with Buffet Viva Vida).<br>
+(Service by appointment only)<br>
+Monday to Friday from 9h to 22h, Saturday from 9h to 15h.
 </address>
 </div>
 </div>
 <div class="row-fluid">
-<div class="span12"> <img src="http://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&amp;zoom=13&amp;size=600x300&amp;scale=2&amp;sensor=false" alt="static map"> <br>
+<div class="span12"> <img src="http://maps.googleapis.com/maps/api/staticmap?center=Butanta+State+of+São+Paulo,+Brasil,NY&amp;zoom=13&amp;size=600x300&amp;scale=2&amp;sensor=false" alt="static map"> <br>
+<br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div id="jobs">
+<div class="container">
+<div class="row-fluid PageHead">
+<div class="span12">
+<h3>WORK WITH US<span> <img src="images/underline.png" alt="______"></span></h3>
+</div>
+</div>
+<div class="row-fluid ContactUs">
+<div class="span6">
+<form class="form-horizontal" id="phpcontactform">
+<div class="control-group">
+<input class="input-block-level" type="text" placeholder="Name" name="name" id="name" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<input class="input-block-level" type="email" placeholder="E-mail" name="email" id="email" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<input class="input-block-level" type="text" placeholder="Phone" name="mobile" id="mobile" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<input class="input-block-level" type="text" placeholder="Mobile" name="mobile2" id="mobile2" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<input class="input-block-level" type="text" placeholder="Address" name="address" id="address" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<input class="input-block-level" type="text" placeholder="Neighborhood" name="neighborhood" id="neighborhood" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<div>
+<span>Available days  to teach:</span><br><br>
+<div id="column1-wrap">
+    <div id="column1">
+        <span>
+            <label class="checkbox" style="font-weight:100">
+                <input type="checkbox" name="dias[]" value="Segunda-Feira" />Monday
+            </label>
+        </span>
+        <span>
+            <label class="checkbox" style="font-weight:100">
+                <input type="checkbox" name="dias[]" value="Ter&ccedil;a-Feira" />Tuesday
+            </label>
+        </span>
+    </div>
+</div>
+<div id="column2">
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="dias[]" value="Quarta-Feira" />Wednesday
+        </label>
+    </span>
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="dias[]" value="Quinta-Feira" />Thursday
+        </label>
+    </span>
+</div>
+<div id="column3">
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="dias[]" value="Sexta-Feira" />Friday
+        </label>
+    </span>
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="dias[]" value="S&aacute;bado" />Saturday
+        </label>
+    </span>
+</div>
+<div id="clear"></div>
+</div>
+</div>
+<div class="control-group">
+<div>
+<span>Period to teach:</span><br><br>
+<div id="column1-wrap">
+    <div id="column1">
+        <span>
+            <label class="checkbox" style="font-weight:100">
+                <input type="checkbox" name="period[]" value="Manh&atilde;" />Morning
+            </label>
+        </span>
+    </div>
+</div>
+<div id="column2">
+   <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="period[]" value="Tarde" />Afternoon
+        </label>
+    </span>
+</div>
+<div id="column3">
+    <span>
+        <label class="checkbox" style="font-weight:100">
+            <input type="checkbox" name="period[]" value="Noite" />Night
+        </label>
+    </span>
+</div>
+<div id="clear"></div>
+</div>
+</div>
+<div class="control-group">
+<input class="input-block-level" type="text" placeholder="Matters that you want to teach. Ex. Guitar, Bass, Drums, etc..." name="learn" id="learn" style="height:30px;margin-bottom: -10px;">
+</div>
+<div class="control-group">
+<textarea class="input-block-level" rows="10" placeholder="Message" name="message" id="message"></textarea>
+</div>
+<div class="control-group">
+<p>
+<input class="btn btn-danger btn-large" type="submit" value="Send">
+</p>
+<span class="loading"></span></div>
+</form>
+</div>
+<div class="span6">
+<div class="row-fluid">
+<div class="span12">
+<h4> D&#39;Brothers </h4>
+<address>
+Av. Otac&iacute;lio Tomanik, 370. Sala 08 – Jd. Bonfiglioli, Butant&atilde;, SP. <br>
+(Blue Building, corner with Buffet Viva Vida).<br>
+(Service by appointment only)<br>
+Monday to Friday from 9h to 22h, Saturday from 9h to 15h.
+</address>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span12"> <img src="http://maps.googleapis.com/maps/api/staticmap?center=Butanta+State+of+São+Paulo,+Brasil,NY&amp;zoom=13&amp;size=600x300&amp;scale=2&amp;sensor=false" alt="static map"> <br>
 <br>
 </div>
 </div>
@@ -297,25 +836,13 @@ Melbourne VIC 30007, Australia<br>
 <div class="container">
 <div class="row-fluid PageHead inverse">
 <div class="span12">
-<h3>We are Social<span> <img src="images/underline.png" alt="______"></span></h3>
+<h3>Social<span> <img src="images/underline.png" alt="______"></span></h3>
 </div>
 </div>
 <div class="row-fluid">
-<div class="span12 TwitterFeed hidden-phone">
-<div id="TwitterBlock">
-<div id="TwitterLogo"> <img src="images/twitter_logo.png" alt="twitter logo"/> </div>
-<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/surjithctly" data-widget-id="295872977659117568" data-tweet-limit="1" data-chrome="nofooter transparent noborders noheader"></a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-<div id="TwitterFooter"> <a href="https://twitter.com/surjithctly" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @surjithctly</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<div class="span12 socialButtons"><a href="http://facebook.com/EscolaDeMusicaDbrothers" target="_blank"><img src="images/facebook_icon.png" alt="facebook"></a></div>
 </div>
-</div>
-</div>
-</div>
-<div class="row-fluid">
-<div class="span12 socialButtons"> <a href="http://twitter.com/surjithctly" target="_blank"> <img src="images/twitter_icon.png" alt="twitter"></a> <a href="http://facebook.com/web3canvas" target="_blank"><img src="images/facebook_icon.png" alt="facebook"></a> <a href="http://web3canvas.com/" target="_blank"><img src="images/linkedin_icon.png" alt="linkedin"></a> </div>
-</div>
-<p class="text-center">Copyright &copy; 2013. Raaga Band. Buy it on Themeforest</p>
+<p class="text-center">Copyright &copy; 2010. D&#39;Brothers School of Music. Design by <a href="http://flushoutsolutions.com" target="_blank">FlushOut Solutions</a> </p>
 </div>
 </div>
  
@@ -329,11 +856,11 @@ Melbourne VIC 30007, Australia<br>
             $(function() {
                 $('.nav li a, .jumbotron p a').bind('click',function(event){
                     var $anchor2 = $(this).parent();
-				    var $anchor = $(this);
-					$('.nav  li').removeClass('active');
+                    var $anchor = $(this);
+                    $('.nav  li').removeClass('active');
                     $anchor2.addClass('active');
-			
-			
+            
+            
                     $('html, body').stop().animate({
                         scrollTop: $($anchor.attr('href')).offset().top - 50
                     }, 1500,'easeInOutExpo');
